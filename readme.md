@@ -175,4 +175,5 @@ The code is devloped based on mmdetection, some part of codes are borrowed from 
 * [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
 * [SA-SSD](https://github.com/skyhehe123)
 
-
+## Contact
+If you have questions, you can contact qianruii@126.com.
