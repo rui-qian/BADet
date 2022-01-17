@@ -183,6 +183,6 @@ dist_params = dict(backend='nccl')
 log_level = 'INFO'
 work_dir = '../saved_model_vehicle'
 load_from = None
-resume_from = '../saved_model_vehicle/epoch_32.pth'
-#resume_from = None
+#resume_from = '../saved_model_vehicle/epoch_32.pth'
+resume_from = None
 workflow = [('train', 1)]
