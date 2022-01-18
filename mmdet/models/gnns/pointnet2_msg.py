@@ -5,9 +5,6 @@ from mmdet.models.gnns.config import cfg
 
 
 def get_model(input_channels=6, use_xyz=True):
-# (Pdb) a
-# input_channels = 0
-# use_xyz = True
     return Pointnet2MSG(input_channels=input_channels, use_xyz=use_xyz)
 
 
@@ -38,7 +35,6 @@ class Pointnet2MSG(nn.Module):
 
   
     def _break_up_pc(self, pc):
-        #将点云和特征分散开来
         xyz = pc[..., 0:3].contiguous()
         features = (
             pc[..., 3:].transpose(1, 2).contiguous()
