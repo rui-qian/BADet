@@ -18,6 +18,7 @@ pages = {108524},
 year = {2022},
 publisher={Elsevier},
 author = {Rui Qian and Xin Lai and Xirong Li},
+}
 @misc{qian20213d,
 title={3D Object Detection for Autonomous Driving: A Survey}, 
 author={Rui Qian and Xin Lai and Xirong Li},
