@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2104.10330-b31b1b.svg)](https://arxiv.org/pdf/2104.10330)
+[![arXiv](https://img.shields.io/badge/arXiv-2104.10330-b31b1b.svg)](https://arxiv.org/abs/2104.10330)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/rui-qian/BADet/graphs/commit-activity)
 [![GitHub issues](https://img.shields.io/github/issues/rui-qian/BADet)](https://GitHub.com/rui-qian/BADet/issues/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -8,7 +8,7 @@ As of Apr. 17th, 2021, [1<sup>st</sup>](http://www.cvlibs.net/datasets/kitti/eva
 **Authors**: [Rui Qian](https://github.com/rui-qian), [Xin Lai](https://github.com/laiguzi), 
 [Xirong Li](https://github.com/li-xirong)
 
-[\[arXiv\]](https://arxiv.org/pdf/2104.10330.pdf)
+[\[arXiv\]](https://arxiv.org/abs/2104.10330)
 [\[elsevier\]](https://doi.org/10.1016/j.patcog.2022.108524)
 ## Citation
 If you find this code useful in your research, please consider citing our work:
