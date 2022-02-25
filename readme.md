@@ -1,3 +1,7 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2104.10330-b31b1b.svg)](https://arxiv.org/pdf/2104.10330)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/rui-qian/BADet/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/rui-qian/BADet)](https://GitHub.com/rui-qian/BADet/issues/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ## BADet: Boundary-Aware 3D Object Detection from Point Clouds (Pattern Recognition 2022)
 As of Apr. 17th, 2021, [1<sup>st</sup>](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=48db930a7077e9925311b2539c21aed7541b7295) place in KITTI BEV detection leaderboard and on par performance on KITTI 3D detection leaderboard among all published literature. The detector can run at 7.1 FPS. 
 
