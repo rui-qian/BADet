@@ -13,7 +13,7 @@ As of Apr. 17th, 2021, [1<sup>st</sup>](http://www.cvlibs.net/datasets/kitti/eva
 ## Citation
 If you find this code useful in your research, please consider citing our work:
 ```
-@inproceedings{qian_2022_PR,
+@inproceedings{qian_2022_BADet,
 title = {{BADet}: Boundary-Aware 3D Object Detection from Point Clouds},
 booktitle = {Pattern Recognition},
 volume = {125},
