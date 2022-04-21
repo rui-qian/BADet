@@ -38,7 +38,7 @@ aos  AP:98.65, 95.34, 90.28
 ```
 # Introduction
 ![model](./teaser/badetoverview.png)
-Currently, existing state-of-the-art 3D object detectors are in two-stage paradigm. These 
+>Currently, existing state-of-the-art 3D object detectors are in two-stage paradigm. These 
 methods typically comprise two steps: 1) Utilize a region proposal network to propose a handful 
 of high-quality proposals in a bottom-up fashion. 2) Resize and pool the semantic features from
 the proposed regions to summarize RoI-wise representations for further refinement. Note that 
@@ -47,7 +47,7 @@ to following detection headers. Nevertheless, we observe these proposals generat
 from ground truth somehow, emerging in local neighborhood densely with an underlying probability. 
 Challenges arise in the case where a proposal largely forsakes its boundary information due to 
 coordinate offset while existing networks lack corresponding information compensation mechanism. 
-In this paper, we propose $BADet$ for 3D object detection from point clouds. Specifically, instead 
+In this paper, we propose BADet for 3D object detection from point clouds. Specifically, instead 
 of refining each proposal independently as previous works do, we represent each proposal as a node 
 for graph construction within a given cut-off threshold, associating proposals in the form of 
 local neighborhood graph, with boundary correlations of an object being explicitly exploited. Besides, 
@@ -55,7 +55,7 @@ we devise a lightweight Region Feature Aggregation Module to fully exploit voxel
 and point-wise features with expanding receptive fields for more informative RoI-wise representations. 
 We validate BADet both on widely used KITTI Dataset and highly challenging nuScenes Dataset.
 As of Apr. 17th, 2021, our BADet achieves on par performance on KITTI 3D detection leaderboard and 
-ranks $1^{st}$ on $Moderate$ difficulty of $Car$ category on KITTI BEV detection leaderboard. 
+ranks 1<sup>st</sup> on *Moderate* difficulty of *Car* category on KITTI BEV detection leaderboard. 
 The source code is available at https://github.com/rui-qian/BADet.
   
 # Dependencies
