@@ -66,6 +66,9 @@ The source code is available at https://github.com/rui-qian/BADet.
 - `mayavi`
 - `spconv` (v1.0)
 - `torch_geometric (v1.4.2)`
+- `torch_scatter (v1.4.0)`
+- `torch_sparse (v0.4.4)`
+- `torch_cluster (v1.4.5)`
 
 # Installation
 1. Clone this repository.
