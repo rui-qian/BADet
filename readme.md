@@ -65,6 +65,7 @@ The source code is available at https://github.com/rui-qian/BADet.
 - `shapely`
 - `mayavi`
 - `spconv` (v1.0)
+- `torch_geometric (v1.4.2)`
 
 # Installation
 1. Clone this repository.
@@ -165,14 +166,14 @@ cd mmdet/tools
 python3 test.py ../configs/car_cfg.py ../saved_model_vehicle/latest.pth
 ```
 
-## Acknowledgements
+## Acknowledgement
 The code is devloped based on mmdetection, some part of codes are borrowed from SA-SSD, SECOND, and PointRCNN.
 * [mmdetection](https://github.com/open-mmlab/mmdetection) 
 * [mmcv](https://github.com/open-mmlab/mmcv)
 * [second.pytorch](https://github.com/traveller59/second.pytorch)
 * [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
 * [SA-SSD](https://github.com/skyhehe123)
-This work was supported by the National Natural Science Foundation of China under Grant 62172420 and Beijing Natural Science Foundation under Grant 4202033.
 
-## Contacts
+
+## Contact
 If you have questions, you can contact qianruii@126.com.
