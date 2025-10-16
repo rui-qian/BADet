@@ -127,7 +127,7 @@ data_root = '/home/qr/qianrui/kitti/'
 ```
 
 # Pretrained Model
-You can download the pretrained model [\[Model\]](https://www.icloud.com.cn/iclouddrive/0b3sjFxx1UwVz5jglDx44l3CQ#epoch%5F50)[\[Archive\]](https://www.icloud.com.cn/iclouddrive/070z4g1Id3jSI0RCuZiq6Orkw#BADet), 
+You can download the pretrained model [\[Model\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/claimed/epoch_50.pth)[\[Archive\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/claimed/BADet.png), 
 which is trained on the train split (3712 samples) and evaluated on the val split (3769 samples) and test split (7518 samples). 
 The performance (using 11 recall poisitions) on **validation** set is as follows:
 ```
@@ -153,6 +153,10 @@ python3 test.py ../configs/car_cfg.py ../saved_model_vehicle/epoch_50.pth
 ```
 |     Model        | Archive     | Parameters | Moderate(Car)  | Pretrained Model                                             | Predicts
 | ----------- | --------- | ---------- | --------- | ------------------------------------------------------------ |------------------------------------------------------------ |
+On Hugging Face
+| BADet(*val*)       | [\[Link\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet.png) | 44.2 MB    | **86.21%**(AP<sub>11</sub>) | [[Hugging Face](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet_val/epoch_50.pth)] | [\[Results\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet_val/BADet_val(86.21%25).zip)|
+| BADet(*test*)       | [\[Link\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/archive.png) | 44.2 MB    | **81.61%**(AP<sub>40</sub>) | [[Hugging Face](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet_test/epoch_50.pth)] |[\[Results\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet_test/BADet_test(81.61%25).zip)|
+On iCloud Drive
 | BADet(*val*)       | [\[Link\]](https://www.icloud.com.cn/iclouddrive/0dcDJjo3u-lDDJJ6lIX2P6ypw#BADet) | 44.2 MB    | **86.21%**(AP<sub>11</sub>) | [[icloud drive](https://www.icloud.com.cn/iclouddrive/0c7Vb2fMO7gytSCkYZEuU8YRQ#epoch%5F50)] | [\[Results\]](https://www.icloud.com.cn/iclouddrive/0f5PmHRL_DQjb9a0QLofdJ8Tw#BADet%5Fval(86.21%25))|
 | BADet(*test*)       | [\[Link\]](https://www.icloud.com.cn/iclouddrive/04028Vv7cpeeuHsJfNzziSLow#archive) | 44.2 MB    | **81.61%**(AP<sub>40</sub>) | [[icloud drive](https://www.icloud.com.cn/iclouddrive/0f9KqbDqQDmyXwBF1vaf3F6ow#epoch%5F50)] |[\[Results\]](https://github.com/rui-qian/BADet)|
 
@@ -169,7 +173,7 @@ cd mmdet/tools
 python3 test.py ../configs/car_cfg.py ../saved_model_vehicle/latest.pth
 ```
 
-## Acknowledgement
+## Acknowledgements
 The code is devloped based on mmdetection, some part of codes are borrowed from SA-SSD, SECOND, and PointRCNN.
 * [mmdetection](https://github.com/open-mmlab/mmdetection) 
 * [mmcv](https://github.com/open-mmlab/mmcv)
