@@ -158,7 +158,7 @@ On Hugging Face
 | BADet(*test*)       | [\[Link\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/archive.png) | 44.2 MB    | **81.61%**(AP<sub>40</sub>) | [[Hugging Face](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet_test/epoch_50.pth)] |[\[Results\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet_test/BADet_test(81.61%25).zip)|
 On iCloud Drive
 | BADet(*val*)       | [\[Link\]](https://www.icloud.com.cn/iclouddrive/0dcDJjo3u-lDDJJ6lIX2P6ypw#BADet) | 44.2 MB    | **86.21%**(AP<sub>11</sub>) | [[icloud drive](https://www.icloud.com.cn/iclouddrive/0c7Vb2fMO7gytSCkYZEuU8YRQ#epoch%5F50)] | [\[Results\]](https://www.icloud.com.cn/iclouddrive/0f5PmHRL_DQjb9a0QLofdJ8Tw#BADet%5Fval(86.21%25))|
-| BADet(*test*)       | [\[Link\]](https://www.icloud.com.cn/iclouddrive/04028Vv7cpeeuHsJfNzziSLow#archive) | 44.2 MB    | **81.61%**(AP<sub>40</sub>) | [[icloud drive](https://www.icloud.com.cn/iclouddrive/0f9KqbDqQDmyXwBF1vaf3F6ow#epoch%5F50)] |[\[Results\]](https://github.com/rui-qian/BADet)|
+| BADet(*test*)       | [\[Link\]](https://www.icloud.com.cn/iclouddrive/04028Vv7cpeeuHsJfNzziSLow#archive) | 44.2 MB    | **81.61%**(AP<sub>40</sub>) | [[icloud drive](https://www.icloud.com.cn/iclouddrive/0f9KqbDqQDmyXwBF1vaf3F6ow#epoch%5F50)] |[\[Results\]](https://huggingface.co/datasets/rui-qian/misc/blob/main/BADet/BADet_test/BADet_test(81.61%25).zip)|
 
 # Training
 To train the BADet with single GPU, run the following command:
