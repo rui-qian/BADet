@@ -183,4 +183,4 @@ The code is devloped based on mmdetection, some part of codes are borrowed from 
 
 
 ## Contact
-If you have questions, you can contact qianruii@126.com.
+If you have questions, you can contact qiianruii@gmail.com.
