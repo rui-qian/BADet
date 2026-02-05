@@ -5,8 +5,7 @@
 # BADet: Boundary-Aware 3D Object Detection from Point Clouds (Pattern Recognition 2022: IF=8.518)
 As of Apr. 17th, 2021, [1<sup>st</sup>](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=48db930a7077e9925311b2539c21aed7541b7295) place in KITTI BEV detection leaderboard and on par performance on KITTI 3D detection leaderboard among all published literature. The detector can run at 7.1 FPS. 
 
-**Authors**: [Rui Qian](https://github.com/rui-qian), [Xin Lai](https://github.com/laiguzi), 
-[Xirong Li](https://github.com/li-xirong)
+**Authors**: [Rui Qian](https://scholar.google.com.hk/citations?user=z3sAW3oAAAAJ&hl=zh-CN), [Xin Lai](https://scholar.google.com.hk/citations?hl=zh-CN&user=dtsv4yYAAAAJ), [Xirong Li](https://scholar.google.com.hk/citations?hl=zh-CN&user=6m-ZQ1EAAAAJ).
 
 [\[arXiv\]](https://arxiv.org/abs/2104.10330)
 [\[elsevier\]](https://doi.org/10.1016/j.patcog.2022.108524)
